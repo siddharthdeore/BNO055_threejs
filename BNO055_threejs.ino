@@ -11,8 +11,8 @@ Adafruit_BNO055 bno = Adafruit_BNO055(); //SDA GPIO21 //SCL GPIO22
 
 
 WebServer server(80);
-const char* ssid = "silvia";
-const char* password = "silviahomewifi";
+const char* ssid = "YourWifiSSID";
+const char* password = "YourWifiPassword";
 
 void handleRoot() {
   String s = MAIN_page; //Read HTML contents
